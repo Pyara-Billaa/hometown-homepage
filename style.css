@@ -98,12 +98,15 @@ i {
   .visit-places > article {
     display: flex;
     justify-content: center;
-    align-items: center;
     gap: 4rem;
     padding: 2rem;
   }
   article > figure {
     width: 12rem;
+  }
+
+  .visit-places-img{
+    margin-top: 0;
   }
 
   .tour-guide {
