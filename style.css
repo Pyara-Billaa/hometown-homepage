@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+}
+body {
+  min-height: 100vh;
+}
+
+header {
+  background-image: url("./images/dressrosa-view.webp");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+header > h1 {
+  color: #ffffff;
+  background-color: #1d3557;
+  padding: 0.2rem 0.8rem 0.3rem;
+  border: none;
+  border-radius: 0.8rem;
+}
+
+header > strong {
+  text-align: center;
+  color: #ffffff;
+  background-color: #457b9d;
+  width: 19rem;
+  padding: 0.2rem 0.8rem;
+  border: none;
+  border-radius: 0.7rem;
+}
+
+main {
+  color: #1d3557;
+}
+
+.visit-places {
+  text-align: center;
+  background-color: #f1faee;
+  padding: 1rem;
+  width: 100%;
+}
+
+.visit-places-img {
+  width: 100px;
+  height: 100px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 1.5rem 0 0.4rem;
+}
+
+.tour-guide {
+  text-align: center;
+  margin: 2rem;
+  background-color: #a8dadc;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 1rem;
+  box-shadow: 0 0.3rem #1d3557;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.guide-img {
+  width: 6rem;
+  object-fit: cover;
+}
+.tour-guide > article > strong,
+i {
+  margin-top: 0.4rem;
+  display: block;
+}
+
+@media (min-width: 720px) {
+  header {
+    height: 20rem;
+  }
+
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .visit-places > article {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+    padding: 2rem;
+  }
+  article > figure {
+    width: 12rem;
+  }
+
+  .tour-guide {
+    width: 25rem;
+    align-items: center;
+  }
+  .tour-guide > img {
+    width: 9rem;
+  }
+}
