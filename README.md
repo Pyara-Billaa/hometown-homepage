@@ -1,6 +1,6 @@
 # Hometown Homepage
 
-## Preview : https://pyara-billaa.github.io/hometown-homepage/
+## [Preview](https://pyara-billaa.github.io/hometown-homepage/)
 
 - This is a basic CSS solo project from Scrimba.
 - Used CSS :
